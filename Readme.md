@@ -6,8 +6,8 @@ Emojify is a fun and interactive web application that allows users to enhance th
 ## How It Works
 1. Enter your message in the input field.
 2. Choose your favorite emojis using the emoji buttons.
-3. Select a background color using the color buttons.
-4. Your message will be displayed with the selected emojis and background color.
+3. Select a color using the color buttons to change the text color.
+4. Your message will be displayed with the selected emojis and color.
 
 ## Technologies Used
 - React
