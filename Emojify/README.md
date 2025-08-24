@@ -1,3 +1,22 @@
+# Emojify
+
+## Project Description
+Emojify is a fun web application that allows users to add emojis and colors to their text, making communication more expressive and engaging.
+
+## How It Works
+- Users can select emojis and colors using interactive buttons.
+- The selected emoji and color are applied to the text, which is displayed in real-time.
+- The app is built with React and Vite for fast development and hot module replacement.
+
+## Technologies Used
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
+
+## Screenshot
+![Emojify Screenshot](../src/assets/Screenshot.png)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
