@@ -1,0 +1,27 @@
+.color-button-group {
+    display: flex;
+    gap: 8px;
+}
+
+.color-btn {
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(135deg, #ff8a00 0%, #e52e71 100%);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(229, 46, 113, 0.15);
+    transition: border 0.2s, box-shadow 0.2s, background 0.3s, transform 0.2s;
+    outline: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.color-btn:hover, .color-btn:focus {
+    border: 2px solid #e52e71;
+    box-shadow: 0 8px 24px rgba(229, 46, 113, 0.25);
+    background: linear-gradient(135deg, #e52e71 0%, #ff8a00 100%);
+    transform: scale(1.12);
+}

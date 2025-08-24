@@ -1,0 +1,24 @@
+.emoji-button-group {
+    display: flex;
+    gap: 8px;
+}
+
+.emoji-btn {
+    font-size: 2.2rem;
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(67, 233, 123, 0.15);
+    outline: none;
+    margin: 4px;
+}
+
+.emoji-btn:hover, .emoji-btn:focus {
+    background: linear-gradient(135deg, #38f9d7 0%, #43e97b 100%);
+    box-shadow: 0 6px 18px rgba(67, 233, 123, 0.25);
+    transform: scale(1.15) rotate(-8deg);
+    outline: none;
+}
